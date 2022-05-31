@@ -1,70 +1,37 @@
 # Ask A Lizard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A projektről
 
-## Available Scripts
+Az általam választott és részben megvalósított projekt a frontend 'React feladat'. A GYIK vonalon elindulva a projekt az **Ask A Lizard** nevet kapta. A feltöltött kérdéseket a 'localStorage'-ban tárolja le, kéri le, az useEffect hook-nak köszönhetően az oldalt újra betöltve is megmaradnak az eddig feltett kérdések és válaszok. Kérdéseket lehetőség van létrehozni, módosítani valamint törölni. A kérdésekre lehet választ írni.
 
-In the project directory, you can run:
+Az alkalmazás listázza az eddig feltett kérdéseket és válaszokat, amennyiben vannak, ha nincsennek, akkor azt ki is írja felhasználó számára. A felső navbaron lehetőség van megjeleníteni a kérdés feltevésért felelős 'form'-ot, ami mezőit kitöltve feltölti az adatokat.
 
-### `npm start`
+A kérdések kezeléséhez Sweet Alert ablakokat használtam a felhasználói élmény növeléséért valamint az egyszerű kezelésért. Maga az felület letisztult és egyben látványos is, a kérdésfeltevés valamint listázás egy 'frosted glass' effektet kapott. amiből kitűnnek az elemek, de teret enged a háttér szép átmenetének áttűnésének.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Elérhetőség
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A projekt elérhető online deployolt formában, valamint telepítve a localhost:3000-es porton futtatva.
 
-### `npm test`
+### Online elérhetőség
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A projekt online felülete az alábbi linken érhető el:
+https://biksz.github.io/ask-a-lizard/
 
-### `npm run build`
+### Telepítés
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A projekt telepítésének lépései:
+- a gitHub-ról a repository-t .zip formátumban le kell tölteni, majd kicsomagolni
+- a fejlesztés során Visual Studio Code-ot használtam és azon keresztül telepítettem, de a terminálból is telepíthető
+- **Visual Studio Code:** Visual Studio Code-ban egy üres ablakon az "Open Folder..." lehetőséget választva a forrás mappát betöltve, betöltődnek a fileok
+- **Visual Studio Code:** Visual Studio Code-ban egy terminált kell nyitni
+- **terminál:** a terminált megnyitni a forrás mappában
+- az alábbi parancsokat kell kiadni mindkét esetben a terminálban:
+- *npm install* vagy *yarn install*
+- *npm start* vagy *yarn start*
+- ezt követően a localhost:3000-es porton elindul az alkalmazás
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Összegzés
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Az általam választott feladat megoldása, ez által a React-al való ismerkedés és tanulás egy új kihívást helyezett elém. Izgalmas volt ennek a technológiának a tanulása és még sok, érdekes lehetőséget nyújt ez a technológia, amiket a továbbiakban szívesen megismernék. A program funkcionalitása nem teljes, számos továbbfejlesztési lehetőség csempészhető bele, viszint amit a program tud, azt jól és biztosan végzi egy letisztult, felhasználóbarát felületen.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Amennyiben megtetszett Önöknek a programom és mögötte a tudásom-kreativitásom egyvelege, szívesen lennék a WebOrbit csapat tagja. Várom visszajelzésüket.
