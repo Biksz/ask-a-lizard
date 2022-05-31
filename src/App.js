@@ -6,8 +6,6 @@ import Questions from './components/Questions';
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Swal from 'sweetalert2';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import NotFoundPage from './pages/NotFoundPage';
 
 import { Spinner } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -125,10 +123,6 @@ function App() {
 
   return (
     <>
-      <Routes>
-          <Route path='/'></Route>
-          <Route path='*' element={<NotFoundPage/>}></Route>
-        </Routes>
       {
         loading ?
         <div className='spinner-container'>
