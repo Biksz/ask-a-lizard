@@ -5,9 +5,10 @@ body {
   height: 100%;
   width: 100%;
   background: linear-gradient(-45deg, #264399, #688cf7, #23a6d8, #23d5ab);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center center;
+  background-attachment: fixed;
   position: relative;
   animation: change 20s ease-in-out infinite ;
 }
