@@ -34,4 +34,4 @@ A projekt telepítésének lépései:
 
 Az általam választott feladat megoldása, ez által a React-al való ismerkedés és tanulás egy új kihívást helyezett elém. Izgalmas volt ennek a technológiának a tanulása és még sok, érdekes lehetőséget nyújt ez a technológia, amiket a továbbiakban szívesen megismernék. A program funkcionalitása nem teljes, számos továbbfejlesztési lehetőség csempészhető bele, viszint amit a program tud, azt jól és biztosan végzi egy letisztult, felhasználóbarát felületen.
 
-Amennyiben megtetszett Önöknek a programom és mögötte a tudásom-kreativitásom egyvelege, szívesen lennék a WebOrbit csapat tagja. Várom visszajelzésüket.
+Amennyiben megtetszett Önöknek a programom és mögötte a tudásom-kreativitásom egyvelege, szívesen lennék a csapatuk tagja. Várom visszajelzésüket.
